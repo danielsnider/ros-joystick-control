@@ -5,10 +5,10 @@
 ROS Python
 ==========
 
-`catkin_make`
+`catkin_make` in the root
 and use it like normal
 
 Arduino folder
 ==============
-use platformio, and init it. `pio init`
-haven't tested, should work
+make sure you have platformio installed, then cd into the arduino folder
+run `pio init` and it should download everything. read the docs for how to upload.
