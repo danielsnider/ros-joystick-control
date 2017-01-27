@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="joystick" type="ros_joystick.py" name="teleoperation_ros" />
+    <node pkg="joy" type="joy_node" name="joy_node" />
+
+    <param name="joy_node/dev" value="/dev/input/js1" />
+
+    <node pkg="rosserial_python" type="serial_node.py" name="rosserial" output="screen">
+        <param name="port" value="/dev/ttyACM0" />
+        <param name="baud" value="57600" />
+    </node>
+</launch>

@@ -1,0 +1,4 @@
+.idea/
+arduino/cmake-build-debug
+arduino/.idea
+build
