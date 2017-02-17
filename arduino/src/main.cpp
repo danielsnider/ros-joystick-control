@@ -6,7 +6,10 @@
 #include "Servo.h"
 #include "ros.h"
 #include "geometry_msgs/Twist.h"
-
+#include "sensor_msgs/JointState.h"
+#include <control_msgs/JointTrajectoryActionGoal.h>
+#include <control_msgs/JointTrajectoryActionGoal.h>
+#include <trajectory_msgs/JointTrajectory.h>
 
 ros::NodeHandle nh;
 Servo theServo;
@@ -38,4 +41,10 @@ void setup() {
 
 void loop() {
     nh.spinOnce();
+    //nh.logdebug("Debug Statement");
+    //nh.loginfo("Program info");
+    //nh.logwarn("Warnings.");
+    //nh.logerror("Errors..");
+    //nh.logfatal("Fatalities!");
+
 }

@@ -1,8 +1,8 @@
-prefix=/home/matthew/PycharmProjects/ros-joystick-control/devel
+prefix=/home/dan/ros-joystick-control/devel
 
 Name: joystick
 Description: Description of joystick
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/matthew/PycharmProjects/ros-joystick-control/devel/lib 
+Libs: -L/home/dan/ros-joystick-control/devel/lib 
 Requires: 
